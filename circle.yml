@@ -1,0 +1,4 @@
+test:
+  pre:
+    - eval "$(ssh-agent -s)"
+    - ./ci/create-keys.sh
